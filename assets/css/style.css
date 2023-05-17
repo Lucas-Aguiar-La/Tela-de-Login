@@ -25,7 +25,7 @@ body {
 }
 
 #container {
-  margin: 2.5rem auto;
+  margin: 1.5rem auto;
   height: 400px;
   width: 280px;
   background-color: rgba(114, 163, 255, 0.8784313725);
@@ -113,6 +113,7 @@ body {
 }
 @media (min-width: 900px) {
   #container {
+    margin: 0 auto;
     width: 550px;
   }
   #container #login_btn {
@@ -138,7 +139,7 @@ body {
 }
 @media (min-width: 1000px) {
   #container {
-    margin: 3.5rem auto;
+    margin: 1rem auto;
     height: 500px;
   }
   #container header {
