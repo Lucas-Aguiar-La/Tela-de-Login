@@ -6,3 +6,8 @@
 
 Projeto em andamento, feito para práticas de JavaScript e PHP buscando incrementar novas funcionalidades. 
 
+# Link
+
+Visualize esse projeto pelo link:
+- https://lucas-aguiar-la.github.io/Tela-de-Login/screens/index.html
+* Nota: Não será possivel visualizar a página "pós login" pelo GitHub Pages, exigindo assim um servidor web com suporte a PHP.
