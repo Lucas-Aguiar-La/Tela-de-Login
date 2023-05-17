@@ -1,0 +1,13 @@
+//Fonte
+$title_font: url("../sass/fonts/OMEGLE.ttf");
+$general_font: url("../sass/fonts/Neon.ttf");
+
+@font-face {
+  font-family: "Title Font";
+  src: $title_font;
+}
+
+@font-face {
+  font-family: "General Font";
+  src: $general_font;
+}

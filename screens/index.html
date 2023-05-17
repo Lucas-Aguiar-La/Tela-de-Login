@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>ATA || Faça login</title>
+  </head>
+  <body id="body">
+    <div id="container">
+      <header>
+        <h1>Faça seu login</h1>
+      </header>
+      <section>
+        <form action="login.php" method="get" class="login_data">
+          <input
+            type="text"
+            name="user"
+            id="user"
+            class="box"
+            placeholder="Usuário/E-mail"
+            required
+          />
+          <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="box"
+            placeholder="Senha"
+            required
+          />
+          <div class="error"></div>
+          <input type="submit" value="Entrar" id="login_btn" />
+          <br />
+          <hr />
+        </form>
+      </section>
+      <footer>
+        <p class="footer_link">
+          Não tem uma conta? <a href="#">Cadastre-se</a>
+        </p>
+      </footer>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

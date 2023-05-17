@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Title Font";
+  src: url("../sass/fonts/OMEGLE.ttf");
+}
+@font-face {
+  font-family: "General Font";
+  src: url("../sass/fonts/Neon.ttf");
+}
+body {
+  min-height: 100vh;
+  background-color: #008ed6;
+  background-image: url("../img/bgd.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#container {
+  margin: 2.5rem auto;
+  height: 400px;
+  width: 280px;
+  background-color: rgba(114, 163, 255, 0.8784313725);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #002872;
+}
+#container header {
+  padding: 10px;
+  color: #f0f8ff;
+  text-align: center;
+  font-family: "Title font";
+  font-size: 9pt;
+  letter-spacing: 2px;
+}
+#container header h1 {
+  margin: 1rem;
+  color: #002872;
+}
+#container section {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#container section .box {
+  margin: 5px;
+  padding: 10px;
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ffb730;
+}
+#container section .box::placeholder {
+  color: #002872;
+}
+#container section .error {
+  color: #af3131;
+  text-align: left;
+}
+#container #login_btn {
+  margin: 2rem 0 0 2rem;
+  width: 130px;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #ffb730;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #ffb730;
+  font-family: "General Font";
+  letter-spacing: 2px;
+  font-size: 12pt;
+}
+#container hr {
+  margin-top: 15px;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+#container footer {
+  text-align: center;
+  font-size: 13pt;
+}
+#container footer a {
+  color: #ffb730;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: "General Font";
+}
+
+@media (min-width: 700px) {
+  #container {
+    height: 450px;
+    width: 400px;
+  }
+  #container .box {
+    max-width: 350px;
+  }
+  #container #login_btn {
+    margin: 2rem 0 0 2.2rem;
+  }
+  #container footer {
+    margin-top: 5rem;
+  }
+}
+@media (min-width: 900px) {
+  #container {
+    width: 550px;
+  }
+  #container #login_btn {
+    margin-left: 13rem;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  #container #login_btn:hover {
+    color: #002872;
+    border-color: #002872;
+    background-color: rgba(114, 163, 255, 0.8784313725);
+  }
+  #container .error {
+    margin-right: 10rem;
+  }
+  #container footer a {
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  #container footer a:hover {
+    color: #002872;
+  }
+}
+@media (min-width: 1000px) {
+  #container {
+    margin: 3.5rem auto;
+    height: 500px;
+  }
+  #container header {
+    font-size: 13pt;
+  }
+  #container section .login_data {
+    width: 400px;
+  }
+  #container section .box {
+    font-size: 13pt;
+  }
+  #container section #login_btn {
+    margin: 1rem 0 0 13rem;
+    font-size: 13pt;
+  }
+  #container footer .footer_link {
+    font-size: 16pt;
+  }
+}
+@media (min-width: 1400px) {
+  body {
+    background-size: cover;
+  }
+  #container {
+    width: 60%;
+  }
+  #container #login_btn {
+    margin-left: 50%;
+    padding: 15px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 95vh;
+  background-color: #008ed6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#screen {
+  margin: 1.5rem auto;
+  width: 250px;
+  height: 400px;
+  background-color: rgba(114, 163, 255, 0.8784313725);
+  border-radius: 20px;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5333333333);
+}
+#screen header {
+  padding-top: 1rem;
+  text-align: center;
+}
+#screen header h1 {
+  color: #002872;
+  font-size: 24pt;
+  letter-spacing: 2px;
+  font-family: "Title font";
+}
+#screen header h2 {
+  color: rgba(0, 0, 0, 0.6431372549);
+  font-size: 10pt;
+  font-style: italic;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#screen main {
+  margin-top: 3rem;
+}
+#screen main p {
+  padding: 10px;
+}
+#screen .logout_btn {
+  margin-left: 10rem;
+  width: 130px;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #ffb730;
+  border-radius: 5px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffb730;
+  font-family: "General Font";
+  letter-spacing: 2px;
+  font-size: 12pt;
+}
+#screen span {
+  color: #ffb730;
+}
+
+@media (min-width: 700px) {
+  #screen {
+    margin-top: 2rem;
+    width: 400px;
+  }
+  #screen header h1 {
+    font-size: 26pt;
+  }
+  #screen header h2 {
+    font-size: 12pt;
+  }
+  #screen main {
+    margin-bottom: 5rem;
+  }
+  #screen .logout_btn {
+    margin-left: 6.5rem;
+    padding: 10px 5rem 10px 5rem;
+  }
+}
+@media (min-width: 1000px) {
+  #screen {
+    height: 500px;
+    width: 600px;
+  }
+  #screen header h1 {
+    font-size: 29pt;
+  }
+  #screen main {
+    margin-bottom: 10rem;
+  }
+  #screen .logout_btn {
+    margin-left: 13.5rem;
+    padding: 10px 5rem 10px 5rem;
+    transition: 0.4s;
+  }
+  #screen .logout_btn:hover {
+    color: #002872;
+    border-color: #002872;
+    background-color: rgba(114, 163, 255, 0.8784313725);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

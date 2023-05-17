@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+// Cores
+@import "../sass/colors/color.scss";
+
+// Fontes
+@import "../sass/fonts/font.scss";
+
+// Telas
+@import "../sass/pages/index.scss";
+@import "../sass/pages/login.scss";
